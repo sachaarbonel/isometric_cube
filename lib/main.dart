@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
           child: CustomPaint(
         // size: Size(150, 150),
-        painter: IsometricCube(x1: 200, y: 150, hexColor: '#ff8d4b'),
+        painter: IsometricCube(hexColor: '#ff8d4b'),
       )),
     );
   }
